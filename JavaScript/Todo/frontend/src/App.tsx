@@ -13,7 +13,7 @@ export default function App() {
         <BrowserRouter>
             <NavBar/>
 
-            <main className="min-h-screen w-full max-w-6xl mx-auto">
+            <main className="min-h-screen w-full max-w-6xl mx-auto px-3">
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     {/*Auth*/}

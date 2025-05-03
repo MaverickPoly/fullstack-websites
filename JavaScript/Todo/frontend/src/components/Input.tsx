@@ -15,6 +15,6 @@ export default function Input(props: InputProps) {
         placeholder={props.placeholder}
         value={props.value}
         onChange={props.onChange}
-        className="p-2 bg-stone-800 border border-stone-600 rounded-md outline-none"
+        className="p-2 bg-stone-800 border border-stone-600 rounded-md outline-none focus:border-stone-500"
     />
 }

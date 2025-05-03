@@ -69,10 +69,10 @@ export const updateTodo = async (req, res) => {
             return res.status(400).json({message: "You do not own this todo!"});
         }
 
-        if (title) {
+        if (title !== undefined) {
             todo.title = title;
         }
-        if (completed) {
+        if (completed !== undefined) {
             todo.completed = completed;
         }
 

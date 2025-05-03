@@ -23,7 +23,7 @@ function NavLink({url, text, icon}: NavLinkProps) {
 export default function NavBar() {
     const {accessToken} = useAuth();
 
-    return <nav className="w-full sticky top-0 left-0 flex items-center justify-between bg-stone-950 border-b border-neutral-700 px-8 py-2">
+    return <nav className="w-full sticky top-0 left-0 flex items-center justify-between bg-stone-950 border-b border-neutral-700 px-6 lg:px-12 py-3">
     <Link to="/" className="text-2xl font-bold text-transparent bg-gradient-to-r from-blue-800 to-red-700 bg-clip-text">MERN Todo</Link>
 
         {/* Links */}

@@ -20,7 +20,7 @@ export default function LoginPage() {
 
         if (!formData.username || !formData.password) {
             // TODO: Toasts
-            alert("All fields are required");
+            return alert("All fields are required");
         }
 
         const {success, message} = await login(formData.username, formData.password);
@@ -32,7 +32,6 @@ export default function LoginPage() {
         } else {
             alert(message);
         }
-
     }
 
     return <div className="flex min-h-[85vh] h-full w-full items-center justify-center">

@@ -92,9 +92,6 @@ export const register = async (req, res) => {
 export const me = async (req, res) => {
     const userId = req.userId;
 
-    console.log("Me User Id:")
-    console.log(userId);
-
     try {
         const user = await User.findById(userId).select("-password");
         res.json(user);

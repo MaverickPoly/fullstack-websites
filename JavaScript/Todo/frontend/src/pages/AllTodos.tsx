@@ -2,10 +2,6 @@ import {useTodos} from "../context/TodoContext.tsx";
 import {useEffect} from "react";
 import TodoTile from "../components/TodoTile.tsx";
 import {PiEmpty} from "react-icons/pi";
-import {FaBeerMugEmpty} from "react-icons/fa6";
-import {ImStarEmpty} from "react-icons/im";
-import {CgBatteryEmpty} from "react-icons/cg";
-import {FcEmptyTrash} from "react-icons/fc";
 
 export default function AllTodosPage() {
     const {todos, fetchTodos} = useTodos();

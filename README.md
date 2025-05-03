@@ -26,15 +26,29 @@ Each implementation includes its own README with specific instructions for setup
 
 Additional stacks will be added to this repository over time, potentially including:
 
-# Backend
+## Backend Technologies
 
+**Python**
+- Django
+- Flask
+- FastApi
+
+**PHP**
 - Laravel
 - Symfony
+
+**C#**
 - .Net Framework
-- Django
+
+**Java**
 - Spring Boot
-- Golang
+
+**Go**
+
+**Ruby**
 - Ruby On Rails
+
+**C++**
 
 ## Contact
 

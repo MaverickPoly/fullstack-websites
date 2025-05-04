@@ -1,0 +1,29 @@
+### Create Todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "title": "Delete this todo"
+}
+
+
+### Get Todos
+GET http://localhost:5000/api/todos
+
+
+### Get Todo
+GET http://localhost:5000/api/todos/3
+
+
+### Update Todo
+PUT http://localhost:5000/api/todos/3
+Content-Type: application/json
+
+{
+  "title": "Todo Testt",
+  "completed": true
+}
+
+### Delete Todo
+DELETE http://localhost:5000/api/todos/4
+

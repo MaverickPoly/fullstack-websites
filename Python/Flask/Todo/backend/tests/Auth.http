@@ -1,0 +1,30 @@
+### Login User
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "12345"
+}
+
+
+### Register User
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "test",
+  "email": "test@gmail.com",
+  "password": "12345"
+}
+
+### Logout User
+POST http://localhost:5000/api/auth/logout
+
+
+### My Profile
+GET http://localhost:5000/api/auth/me
+
+
+### All users
+GET http://localhost:5000/api/auth/users

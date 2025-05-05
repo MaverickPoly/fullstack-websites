@@ -6,7 +6,7 @@ from app import db
 from app import logger
 
 
-@todo_bp.route("/", methods=["POST"])
+@todo_bp.route("", methods=["POST"])
 @jwt_required()
 def create_todo():
     try:
@@ -25,7 +25,7 @@ def create_todo():
         return jsonify({"message": "Internal server error!"}), 500
 
 
-@todo_bp.route("/", methods=["GET"])
+@todo_bp.route("", methods=["GET"])
 @jwt_required()
 def get_todos():  # Get all todos of a user
     try:

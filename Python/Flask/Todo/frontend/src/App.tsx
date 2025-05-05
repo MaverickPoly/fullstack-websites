@@ -11,7 +11,7 @@ import PricingPage from "./pages/PricingPage.tsx";
 import {AllUsersPage} from "./pages/AllUsersPage.tsx";
 
 export default function App() {
-    return <div className="">
+    return <div className="min-h-screen bg-orange-100">
         <BrowserRouter>
 
             <main className="">

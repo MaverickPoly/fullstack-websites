@@ -1,6 +1,6 @@
 # Full Stack Development Repository
 
-This repository contains multiple full stack applications implemented using different programming languages and frameworks.
+This repository contains multiple full stack applications implemented using different programming languages and frameworks!
 
 ## Repository Structure
 

@@ -1,0 +1,32 @@
+### Get All Contacts
+
+GET http://localhost:3000/api/contacts
+
+
+### Create Contact
+POST http://localhost:3000/api/contacts
+Content-Type: application/json
+
+{
+  "name": "Delete this",
+  "phone": "12345",
+  "email": "some@gmail.com"
+}
+
+
+### Get Contact
+GET http://localhost:3000/api/contacts/3
+
+
+### Update Contact
+PUT http://localhost:3000/api/contacts/3
+Content-Type: application/json
+
+{
+  "name": "John",
+  "phone": "135790",
+  "email": "john@gmail.com"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/api/contacts/5

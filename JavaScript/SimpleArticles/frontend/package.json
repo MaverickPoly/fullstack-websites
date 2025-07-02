@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "@types/markdown-it": "^14.1.2",
     "axios": "^1.10.0",
     "lucide-react": "^0.525.0",
+    "markdown": "^0.5.0",
+    "markdown-it": "^14.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.6.3",
@@ -20,6 +23,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/marked": "^5.0.2",
     "@types/node": "^24.0.8",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",

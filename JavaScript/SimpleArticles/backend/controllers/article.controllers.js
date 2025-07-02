@@ -50,7 +50,9 @@ const getArticle = async (req, res) => {
       return res.status(400).json({ message: "Invalid article id!" });
     }
 
-    const article = await ArticleModel.findById(articleId).select("-password");
+    const article = await ArticleModel.findById(articleId)
+      .select("-password")
+      .populate("userId");
 
     if (!article) {
       return res.status(404).json({ message: "Article not found!" });
